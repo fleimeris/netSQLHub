@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GtkApp", "GtkApp\GtkApp.csproj", "{76B4CEED-C9DA-45CC-B014-258742D7168F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSQLHub.GtkApp", "NetSQLHub.GtkApp\NetSQLHub.GtkApp.csproj", "{A49D8E61-7779-4942-A844-9B1FEB82957C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSQLHub.Shared", "NetSQLHub.Shared\NetSQLHub.Shared.csproj", "{BB3A7686-9EA3-4120-B60B-822AB63288E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +10,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{76B4CEED-C9DA-45CC-B014-258742D7168F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{76B4CEED-C9DA-45CC-B014-258742D7168F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{76B4CEED-C9DA-45CC-B014-258742D7168F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{76B4CEED-C9DA-45CC-B014-258742D7168F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A49D8E61-7779-4942-A844-9B1FEB82957C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A49D8E61-7779-4942-A844-9B1FEB82957C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A49D8E61-7779-4942-A844-9B1FEB82957C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A49D8E61-7779-4942-A844-9B1FEB82957C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB3A7686-9EA3-4120-B60B-822AB63288E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB3A7686-9EA3-4120-B60B-822AB63288E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB3A7686-9EA3-4120-B60B-822AB63288E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB3A7686-9EA3-4120-B60B-822AB63288E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
